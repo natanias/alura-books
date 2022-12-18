@@ -1,0 +1,23 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carousel.css");
+@import url("topics.css");
+@import url("contact.css");
+@import url("footer.css");
+
+:root {
+  --color-in-background: #ebecee;
+  --white: #ffffff;
+  --orange: #eb9b00;
+  --blue-gradient: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --blue: #002f52;
+
+  --background-main: "Poppins";
+}
+
+body {
+  background-color: var(--color-in-background);
+  font-family: var(--background-main);
+  font-size: 16px;
+  font-weight: 400;
+}
