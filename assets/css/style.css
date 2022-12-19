@@ -11,8 +11,12 @@
   --orange: #eb9b00;
   --blue-gradient: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
   --blue: #002f52;
+  --black: #000000;
+  --gray: #474646;
+  --gray-white: #858585;
 
   --background-main: "Poppins";
+  --background-secondary: "Josefin Sans";
 }
 
 body {

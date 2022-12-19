@@ -71,3 +71,52 @@
   font-weight: 700;
   text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+  .carousel__title {
+    font-size: 26px;
+  }
+  .swiper-pagination {
+    margin: 2em 0 3em 0;
+  }
+  .swiper {
+    width: 60%;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    top: 65%;
+  }
+  .card {
+    width: 40%;
+    margin: 2em auto;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .carousel__container {
+    display: flex;
+    align-items: center;
+    margin: 0 20vw 3em 20vw;
+  }
+  .swiper-pagination {
+    margin: 1em 0;
+  }
+  .swiper {
+    width: 45%;
+  }
+
+  .description {
+    margin-right: 2em;
+  }
+  .description__title {
+    font-size: 32px;
+  }
+  .description__text {
+    font-size: 16px;
+  }
+  .card {
+    width: 57%;
+    margin-left: 3em;
+  }
+}
